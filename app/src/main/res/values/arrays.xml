@@ -1,0 +1,38 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="sort_order_entries">
+        <item>возрастанию</item>
+        <item>убыванию</item>
+    </string-array>
+
+    <string-array name="sort_order_values">
+        <item>by_to_upper</item>
+        <item>by_to_lower</item>
+
+    </string-array>
+
+    <string-array name="sort_by_name_entries">
+        <item>дате создания</item>
+        <item>имени</item>
+        <item>фамилии</item>
+        <item>статусу</item>
+    </string-array>
+
+    <string-array name="sort_by_name_values">
+        <item>by_date</item>
+        <item>name</item>
+        <item>last_name</item>
+        <item>status</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+</resources>

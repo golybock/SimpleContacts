@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactsList2">
+    <fragment
+        android:id="@+id/contactsList2"
+        android:name="com.bibaboba.contacts.ContactsList"
+        android:label="@string/fragment_contacts_list"
+        tools:layout="@layout/fragment_contacts_list" >
+        <action
+            android:id="@+id/action_contactsList2_to_statusesFragment"
+            app:destination="@id/statusesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusesFragment"
+        android:name="com.bibaboba.contacts.StatusesFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_item_list" >
+        <action
+            android:id="@+id/action_statusesFragment_to_contactsList2"
+            app:destination="@id/contactsList2" />
+    </fragment>
+</navigation>
